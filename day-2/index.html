@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <main>
+        <header>
+            <h1>Vishal Kumar</h1>
+            <img src="./images/IMG_20230602_005938_018.jpg" height="200px" alt="">
+            <br>
+            <hr>
+        </header>
+        <section>
+            <article>
+                <h3>About me</h3>
+                <p>Hello there! My name is <strong> <em> Vishal kumar</em></strong>, and I'm currently a third-year student pursuing a Bachelor of
+                    Technology (B.Tech) degree from Shivalik college of engineering. I have a keen interest in honing my
+                    skills in Data Structures and Algorithms (DSA) alongside exploring the dynamic world of web
+                    development. With a strong focus on both theoretical concepts and practical applications, I'm
+                    dedicated to mastering these domains to contribute meaningfully to the ever-evolving tech industry.
+                    Constantly seeking new challenges and opportunities for growth, I'm excited to leverage my knowledge
+                    and skills to create innovative solutions that make a positive impact. Let's embark on this journey
+                    of learning and discovery together!</p>
+            </article>
+            <hr>
+            <div>
+                <h3>Projects</h3>
+                <ul>
+                    <li>
+                        <b>Voice-genrated email-bot</b>
+                        <ul>
+                            <li>
+                                Developed a Python program utilizing the speech recognition library for speech
+                                recognition
+                                and the smtplib library for sending emails.
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <b>Weather app</b>
+                        <ul>
+                            <li>
+                                Developed a website which tells the current temperature and weather report of any place
+                                using API.
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div>
+                <h3>Education</h3>
+                <table> 
+                    <tr>
+                        <th>Degree</th>
+                        <th>Institute</th>
+                        <th>cgpa/percentage</th>
+                        <th>year</th>
+                    </tr>
+                    <tr>
+                        <td>B.tech</td>
+                        <td>Shivalik College of Engineering</td>
+                        <td>6.5 cgpa</td>
+                        <td>2021-2025</td>
+                    </tr>
+                    <tr>
+                        <td>Senior-Secondary</td>
+                        <td>B.D. Public School</td>
+                        <td>68.4%</td>
+                        <td>2020</td>
+                    </tr>
+                    <tr>
+                        <td>Secondary</td>
+                        <td>B.D. Public School</td>
+                        <td>81.62%</td>
+                        <td>2018</td>
+                    </tr>
+                </table>
+            </div>
+            <hr>
+            <aside>
+                <strong>My College</strong>
+                <br>
+                <br>
+                <iframe width="450" height="250" src="https://www.youtube.com/embed/3cJzwE2sz68?si=8UfVDJbybvDQXa4q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </aside>
+        </section>
+        <footer>
+            <hr>
+            <h3>Contact me</h3>
+            <ul>
+                <li>Ph- +917563801167</li>
+                <li>email- vishalkumar524684</li>
+                <li><a href="https://www.linkedin.com/in/vishal524684" target="_blank">LinkedIN</a></li>
+            </ul>
+            <h3>Query</h3>
+            <form action="" method="get">
+                <p><label for="Name" name = "name">Name : </label>
+                    <input type="text" id="Name" name="Name" required>
+                </p>
+                <p><label for="email" name = "email">Email : </label>
+                    <input type="email" id="email" name="email" required>
+                </p>
+                <p><label for="phone" name = "phone">Phone : </label>
+                    <input type="tel" id="phone" name="phone" required>
+                <p><label for="query" name = "query">Query : </label>
+                    <textarea name="query" id="query" cols="30" rows="10" required></textarea>
+                </p>
+                <p><label for="date" name ="date">Date : </label>
+                    <input type="date" id="date" name="date" required>
+                </p>
+                <p><label for="city">City : </label>
+                    <select name="city" id="city">
+                        <option value="Dehradun">Dehradun</option>
+                        <option value="Delhi">Delhi</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option value="Banglore">Banglore</option>
+                    </select>
+                </p>
+                <p>
+                    Intrests : 
+                    
+                    <input type="checkbox" id="webd" name="intrests" value="webd" >
+                    <label for="web">Web Development</label>
+
+                    <input type="checkbox" id="dsa" name="intrests" value="dsa">
+                    <label for="dsa">DSA</label>
+
+                    <input type="checkbox" id="ml" name="intrests" value="ml">
+                    <label for="ml">Machine Learning</label>
+
+                    <input type="checkbox" id="gaming" name="intrests" value="gaming" disabled>
+                    <label for="gaming">Gaming</label>
+                </p>
+                <p>
+                    Rate your experience : 
+                    <label for="excellent">
+                        <input type="radio" id="excellent" name="rating" value="excellent">
+                        Excellent
+                    </label>
+                    <label for="good">
+                        <input type="radio" id="good" name="rating" value="good">
+                        Good
+                    </label>
+                    <label for="average">
+                        <input type="radio" id="average" name="rating" value="average">
+                        Average
+                    </label>
+                    <label for="poor">
+                        <input type="radio" id="poor" name="rating" value="poor">
+                        Poor
+                    </label>
+                </p>
+                <p>
+                    <input type="submit" value="Submit">
+                    <input type="reset" value="reset">
+                </p>
+                
+            </form>
+        </footer>
+    </main>
+</body>
+
+</html>
